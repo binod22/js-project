@@ -1,0 +1,44 @@
+body{
+    background-color:#48A30012;
+    font-family: 'Poppins', sans-serif;
+
+}
+.heading {
+    font-family : Poppins;
+    font-size: 3rem;
+    color: #48A300;
+    text-align: center;
+    
+
+
+}
+
+.heading span {
+    color: #61481c;
+}
+
+.app-container {
+    background-color:#FBFBFB;;
+    border-radius: 15px;
+    max-width: 660px;
+    margin-inline : auto;
+    padding : 32px 42px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0, 0.07);
+
+}
+
+h2 .sub-heading {
+    font-size:32px ;
+}
+
+.sun-icon{
+    vertical-align: middle;
+    margin-left: 10px;
+    height: 30px;   
+}
+
+@media(min-width:768px){
+    .heading {
+        font-size: 32px;
+    }
+}
