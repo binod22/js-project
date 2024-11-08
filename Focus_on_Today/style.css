@@ -1,11 +1,15 @@
 body{
     background-color:#48A30012;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
+}
+main{
+    padding:0px 16px
 }
 .heading {
     font-family : Poppins;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #48A300;
     text-align: center;
     
@@ -37,8 +41,81 @@ h2 .sub-heading {
     height: 30px;   
 }
 
-@media(min-width:768px){
+.progress-label {
+    color: #858585;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.progress-bar{
+    background: #48A3001A;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+.progress-value {
+    background-color:#48A300;;
+    width :60%;
+    height: 100%;
+    border-radius: 15px;
+    font-size:10px;
+    font-weight: 500;
+    color: white;
+    display :flex;
+    align-items: center;
+    padding-left: 10px;
+
+
+}
+
+.goals-alert{
+    color: #FF5151;
+    font-size: 14px;
+}
+.goal-container{
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    height: 82px;
+    display:flex;
+    align-items: center;
+    padding: 0 22px;
+    margin-bottom: 55px;
+}
+.custom-checkbox{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 2px solid #61481C4D;
+    margin-left: 10px;
+    margin-right: 26px;
+
+}
+.goal-input{
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    outline:none;
+    height: 28px;
+    width:100%;
+}
+.goal-input::placeholder{
+    color: #D9D9D9;
+}
+.appcontainer-footer{
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    align-items: center;
+}
+
+@media(max-width:768px){
     .heading {
         font-size: 32px;
+       
+       
+    }
+    .app-container{
+        padding: 16px 32px;
     }
 }
+
