@@ -70,6 +70,7 @@ h2 .sub-heading {
     display :flex;
     align-items: center;
     overflow: hidden;
+    transition: width 0.2s ease-in-out;
 
 
 }
